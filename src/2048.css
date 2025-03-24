@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #c69e79;
+}
+
+hr {
+    width: 500px;
+}
+.button {
+    height: 40px;
+    width: 120px;
+    background-color: #8B6743;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #b38b6d;
+    border: 6px solid #8B6743;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #8B6743;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    
+    background-color: #FFE3E9 ;
+    color: #727371;
+    background-image: url("sonny_angel_2.png");
+}
+
+.x4 {
+    background-color:  #FFA2B9 ;
+    color: #727371;
+    background-image: url("Sonny_Angel_4.png");
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+    background-image: url("Sonny_Angel_8.png");
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+    background-image: url("Sonny_Angel_16.png");
+}
+
+.x32{
+    background-color:  #FC8EAC ;
+    color: white;
+    background-image: url("Sonny_Angel_32.png");
+}
+
+.x64{
+    background-color:  #F3407A ;
+    color: white;
+    background-image: url("Sonny_Angel_64.png");
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+    background-image: url("Sonny_Angel_128.png");
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+    background-image: url("Sonny_Angel_256.png");
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+    background-image: url("Sonny_Angel_512.png");
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+    background-image: url("Sonny_Angel_1024.png");
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+    background-image: url("Sonny_Angel_2048.png");
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+    background-image: url("Sonny_Angel_4096.png");
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+    background-image: url("Sonny_Angel_8192.png");
+}
